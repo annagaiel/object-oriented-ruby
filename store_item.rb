@@ -1,17 +1,20 @@
 require 'pry'
 
 animals = [
-  dog = {
+  {
+    kind: "cat",
     color:"black",
     legs:4,
     price:100
   },
-  cat = {
+  {
+    kind: "dog",
     color:"white",
     legs:4,
     price:200
   },
-  pig = {
+  {
+    kind: "pig",
     color:"pink",
     legs:4,
     price:300
