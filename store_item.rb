@@ -21,3 +21,4 @@ animals = [
   }
 ]
 
+p animals
