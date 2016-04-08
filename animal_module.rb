@@ -2,10 +2,10 @@ module AnimalModule
 
   attr_reader :color, :legs, :price
 
-  def initialize(color, legs, price)
-    @color = color
-    @legs = legs
-    @price = price
+  def initialize(info)
+    @color = info[:color]
+    @legs = info[:legs]
+    @price = info[:price]
   end
 
 end

@@ -4,9 +4,9 @@ require_relative 'dog'
 require_relative 'pig'
 
 
-cat = Cat.new('black', 4, 300)
+cat = Cat.new(color:'black', legs:4, price:300)
 p cat.color
-dog = Dog.new('white', 4, 200)
+dog = Dog.new(color:'white', legs:4, price:200)
 p dog.price
-pig = Pig.new('pink', 4, 100)
+pig = Pig.new(color:'pink', legs:4, price:100)
 p pig.color
