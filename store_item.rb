@@ -8,8 +8,7 @@ animals = [
     price:100
   },
   {
-    kind: "dog",
-    color:"white",
+    kind: "dog",    color:"white",
     legs:4,
     price:200
   },
